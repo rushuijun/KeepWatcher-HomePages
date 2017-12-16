@@ -1,0 +1,34 @@
+
+
+环境准备
+
+・注册github的帐号，用以申请Project的提交权限
+
+・本地环境安装以下软件
+  Git 最新版本可
+  SourceTree 最新版本可
+  NetBean 8.2
+  Google Chrome
+  NetBean的Chrome插件 
+  （NetBean中用Chrome启动项目工程时会提示安装）
+
+ Eclipse 最新版本可
+ Java 1.5
+
+
+
+・下载前端Project到本地，导入NetBean
+https://github.com/vekee/KeepWatcher-HomePages.git
+
+
+・下载后端Project到本地，导入Ecplise
+https://github.com/vekee/PagesWatchKeeper.git
+
+
+・代码提交
+以下信息发送到邮箱：vekee66@gmail.com
+github的帐号名
+github的帐号绑定的邮箱
+
+代码提交权限追加过后，将Project克隆到SourceTree中，进行提交
+
