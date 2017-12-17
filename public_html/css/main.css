@@ -1,0 +1,183 @@
+/* 
+    Created on : 2017/06/10, 23:13:49
+    Author     : duan
+*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body{
+    font-family:"メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+    letter-spacing:1px;
+    margin: 0;
+    min-height: 100%;
+    position: relative;
+}
+.main{
+    min-height: 100%;
+    height:100%;
+    width:100%;
+    padding-bottom: 200px;
+    position:relative;
+}
+h3,h4,h5,h6{
+    font-family:"メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+.carousel-indicators{
+    bottom: 0;   
+}
+
+.carousel ol{
+    margin-bottom: 2.5%;
+}
+.carousel-caption{
+    padding-top: 0;
+    padding-bottom: 3%;
+}
+
+.breadcrumb a {
+    color:#466DA5;
+}
+
+.site-info h5 {
+    font-size:12px;
+    line-height: 1.8;
+    letter-spacing:1px;
+    color:#466DA5; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.site-info li {
+    font-size:14px;
+    font-weight: 600;
+    line-height: 1.8;
+    color:#466DA5;
+    margin-top: 10px;
+}
+
+.site-info a {
+    color:#466DA5;
+    font-weight:bold;
+}
+
+.carousel-caption h4{
+    font-size:14px;
+    width: auto;
+    height: auto;
+}
+.carousel-caption p{
+    font-size:12em;
+    width: auto;
+    height: auto;
+}
+
+.page-header{
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom:15px;
+}
+.page-header h3,h4,h5{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.page-header h5{
+    margin-left: 8px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height:140%;
+}
+
+label{
+    font-weight: 500;
+}
+
+.btn{
+    color:#466DA5; 
+}
+
+.caption a{
+    margin: 0;
+    padding: 0;
+    font-size:12px;
+}
+.caption h5{
+    font-weight: 500;
+    margin-bottom:5px;
+}
+.caption p{
+    font-size:12px;
+    margin-bottom:5px;
+}
+
+.panel a{
+    margin: 0;
+    padding:0;
+    font-size:12px;
+}
+.panel h4{
+    padding-left: 9px;
+    color:#466DA5;
+}
+.panel h5{
+    font-weight: 500;
+    margin-top:2px;
+    margin-bottom:10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.panel p{
+    font-size:12px;
+    margin-bottom:15px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-md-2 p{
+    padding-left: 7px;
+}
+
+.panel-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.panel-body p{
+    font-size:12px;
+    margin-left:0;
+    margin-bottom:5px;
+}
+
+
+.table-bordered > tbody > tr > td{
+    vertical-align: middle;
+}
+    
+.table {
+    table-layout: fixed;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.table tr td:nth-child(1) {
+    width: 18%;
+}
+
+@media only screen and (min-width: 1920px) { .carousel-caption p{ font-size: 14px; }}
+@media only screen and (max-width: 1919px) { .carousel-caption p{ font-size: 14px; }}
+@media only screen and (max-width: 1000px) { .carousel-caption p{ font-size: 13px; }}
+@media only screen and (max-width: 900px) { .carousel-caption p{ font-size: 13px; }}
+@media only screen and (max-width: 800px) { .carousel-caption p{ font-size: 12px; }}
+@media only screen and (max-width: 700px) { .carousel-caption p{ font-size: 12px; }}
+@media only screen and (max-width: 600px) { .carousel-caption p{ font-size: 10px; }}
+@media only screen and (max-width: 500px) { .carousel-caption p{ font-size: 10px;margin: 0;}}
+@media only screen and (max-width: 400px) { .carousel-caption p{ font-size: 8px;margin: 0;}}
+@media only screen and (max-width: 340px) { .carousel-caption p{ font-size: 6px;margin: 0;}}

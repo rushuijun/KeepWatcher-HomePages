@@ -1,0 +1,101 @@
+/* 
+    Created on : 2017/06/11, 16:27:48
+    Author     : duan
+*/
+
+.footer{
+    position: absolute;
+    background:#f6f6f6;
+    border-top:2px solid orange;
+    bottom: 0;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+.footer-bottom {
+    background:#d8d8d8;
+    padding:10px 0;
+    border-top:1px solid #d9d9d9;
+    font-size:11px;
+    color:#777; 
+}
+.footer ul{
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.footer li{
+    font-family:"メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+    padding:0;
+    margin-top: 2px;
+    font-size:12px;
+    color:#466DA5;
+}
+
+.footer a{
+    color:#466DA5;
+}
+
+.widget {
+    margin-bottom: 13px;
+}
+.widget h2 { 
+    font-size:12px;
+    font-weight:bold;
+    color:#466DA5; 
+    padding:0;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+.widget h5{
+    cursor:pointer;  
+    font-size:14px;
+    font-weight:bold;
+    color:#466DA5; 
+    padding:0;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+.widget h6 {
+    font-family:"メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+    font-size:12px;
+    line-height: 1.4;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color:#466DA5; 
+}
+
+.footer-bottom p{
+    font-family:"メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+    font-size:12px;
+    text-align: center;
+    color: #777;
+    margin:0;
+}
+
+@media only screen and (max-width: 479px) {    
+    .widget_content{
+        display:none;
+    }
+    .active .widget_content{
+        display:inline;	
+    }
+    .widget h2 { 
+        border-bottom:1px solid #ddd;
+    }   
+    .widget h2:after {
+        content:"\203A";
+        color:white;
+        width:20px;
+        height:20px;
+        background:#999;
+        display:inline-block;
+        text-align:center;
+        float:right;
+    }
+    .active.widget h2:after {
+        content:"\2039";    
+        background:#ccc;
+    }
+}
