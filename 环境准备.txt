@@ -13,7 +13,7 @@
   （NetBean中用Chrome启动项目工程时会提示安装）
 
  Eclipse 最新版本可
- Java 1.5
+ Java 1.8
 
 
 
@@ -31,4 +31,6 @@ github的帐号名
 github的帐号绑定的邮箱
 
 代码提交权限追加过后，将Project克隆到SourceTree中，进行提交
+
+非项目文件（IDE配置文件等，为避免影响其他人的开发环境，尽量不要提交）
 
