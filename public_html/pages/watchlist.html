@@ -16,7 +16,8 @@
         -->
         <link rel="stylesheet" href="../bootstrap/3.3.7/css/bootstrap.min.css" >
         <link rel="stylesheet" href="../bootstrap/ie10-viewport-bug-workaround.css" media="screen" >
-
+        <link rel="stylesheet" href="../bootstrap/silder/css/bootstrap-slider.css" >
+        <link rel="stylesheet" href="../bootstrap/switch/css/bootstrap-switch.css" >
 
         <link rel="shortcut icon" href="../favicon.ico" >
     </head>
@@ -85,10 +86,10 @@
                                     间隔时间
                                 </th>
                                 <th>
-                                   上次变更时间
+                                    上次变更时间
                                 </th>
                                 <th>
-                                   开始/停止
+                                    开始/停止
                                 </th>
                             </tr>
                         </thead>
@@ -105,13 +106,37 @@
                                     株主・投資家の皆さま | セブン銀行
                                 </td>
                                 <td>
-                                    20s
+                                    <a id="modal-238530" href="#modal-container-238530" role="button" class="btn" data-toggle="modal">
+                                        <span id="ex6CurrentSliderValLabel">
+
+                                            <span id="ex6SliderVal">3</span>
+                                            s
+                                        </span>
+                                    </a>
+
+                                    <div class="modal fade" id="modal-container-238530" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title" id="myModalLabel">
+                                                        设置监视间隔时间
+                                                    </h4>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <input id="ex6" type="text" data-slider-min="-5" data-slider-max="100" data-slider-step="1" data-slider-value="3"/>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
                                 </td>
                                 <td>
                                     2012/01/04/ 12:30
                                 </td>
                                 <td>
-                                    开始
+                                    <input type="checkbox" class="" name="onoff-checkbox" data-size="mini" checked>
                                 </td>
                             </tr>
                             <tr>
@@ -126,7 +151,7 @@
                                     投資家情報 | コスモエネルギーホールディングス
                                 </td>
                                 <td>
-                                    20s
+                                    <a class="xtd xdata xaction" title="" data-action="sieve schedule menu" data-action-param="$parents [data-id]@data-id" data-toggle="tooltip" data-original-title="Click to edit schedule"><i class="xcaret fa fa-caret-down "></i><small>25 mins</small></a>
                                 </td>
                                 <td>
                                     2012/01/04/ 12:30
@@ -232,5 +257,9 @@
         <script type="text/javascript" src="../bootstrap/ie10-viewport-bug-workaround.js" ></script>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script type="text/javascript" src="../bootstrap/silder/js/bootstrap-slider.js"></script>
+        <script type="text/javascript" src="../bootstrap/switch/js/bootstrap-switch.js"></script>
+        <script type="text/javascript" src="../js/watchlist.js"></script>
+
     </body>
 </html>

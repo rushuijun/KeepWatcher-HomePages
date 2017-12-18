@@ -34,3 +34,16 @@ github的帐号绑定的邮箱
 
 非项目文件（IDE配置文件等，为避免影响其他人的开发环境，尽量不要提交）
 
+
+前台控件设计
+https://proto.io
+
+前台UI精简框架
+https://purecss.io/
+
+bootstrap-slider
+https://github.com/seiyria/bootstrap-slider
+http://seiyria.com/bootstrap-slider/
+
+bootstrap-switch
+http://bootstrapswitch.com
