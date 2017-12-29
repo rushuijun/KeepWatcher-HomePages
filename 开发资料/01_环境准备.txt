@@ -1,5 +1,7 @@
 环境准备
 
+◆工具准备
+
 ・注册github的帐号，用以申请Project的提交权限
 
 ・本地环境安装以下软件
@@ -9,24 +11,34 @@
   Google Chrome
   NetBean的Chrome插件 
   （NetBean中用Chrome启动项目时会提示安装）
+  Eclipse 最新版本可
+  Java 1.8
 
- Eclipse 最新版本可
- Java 1.8
-
+◆Project导入
+重要:https://github.com/vekee下的所有项目，请勿外传。
 
 ・下载前端Project到本地，导入NetBean
 https://github.com/vekee/KeepWatcher-HomePages.git
 
 
-・下载后端Project到本地，导入Ecplise
+・下载后端Project到本地，导入Eclipse
 https://github.com/vekee/PagesWatchKeeper.git
 
-・安装lombok到Ecplise
+Project导入Eclipse后，会出现编译Error,需要安装lombok到Eclipse
 https://projectlombok.org
 http://blog.csdn.net/faicm/article/details/46772591
 
 
-・代码提交
+◆工具准备
+
+・前台开发资料（持续整理中）
+KeepWatcher-HomePages/开发资料
+
+・后台开发资料（持续整理中）
+PagesWatchKeeper/开发资料
+
+
+◆代码提交
 以下信息发送到邮箱：vekee66@gmail.com
 github的帐号名
 github的帐号绑定的邮箱
