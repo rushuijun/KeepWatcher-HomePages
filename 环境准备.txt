@@ -1,5 +1,3 @@
-
-
 环境准备
 
 ・注册github的帐号，用以申请Project的提交权限
@@ -10,7 +8,7 @@
   NetBean 8.2
   Google Chrome
   NetBean的Chrome插件 
-  （NetBean中用Chrome启动项目工程时会提示安装）
+  （NetBean中用Chrome启动项目时会提示安装）
 
  Eclipse 最新版本可
  Java 1.8
