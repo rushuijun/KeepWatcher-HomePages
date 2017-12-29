@@ -14,13 +14,16 @@
  Java 1.8
 
 
-
 ・下载前端Project到本地，导入NetBean
 https://github.com/vekee/KeepWatcher-HomePages.git
 
 
 ・下载后端Project到本地，导入Ecplise
 https://github.com/vekee/PagesWatchKeeper.git
+
+・安装lombok到Ecplise
+https://projectlombok.org
+http://blog.csdn.net/faicm/article/details/46772591
 
 
 ・代码提交
@@ -31,17 +34,3 @@ github的帐号绑定的邮箱
 代码提交权限追加过后，将Project克隆到SourceTree中，进行提交
 
 非项目文件（IDE配置文件等，为避免影响其他人的开发环境，尽量不要提交）
-
-
-前台控件设计
-https://proto.io
-
-前台UI精简框架
-https://purecss.io/
-
-bootstrap-slider
-https://github.com/seiyria/bootstrap-slider
-http://seiyria.com/bootstrap-slider/
-
-bootstrap-switch
-http://bootstrapswitch.com
