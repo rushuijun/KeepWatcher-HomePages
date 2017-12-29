@@ -13,6 +13,8 @@
   （NetBean中用Chrome启动项目时会提示安装）
   Eclipse 最新版本可
   Java 1.8
+  MySQL Community Server 5.7.20
+  mysql-workbench-community-6.3.10
 
 ◆Project导入
 重要:https://github.com/vekee下的所有项目，请勿外传。
@@ -28,6 +30,14 @@ Project导入Eclipse后，会出现编译Error,需要安装lombok到Eclipse
 https://projectlombok.org
 http://blog.csdn.net/faicm/article/details/46772591
 
+・数据库设置
+  安装MySQL后创建以下用户
+    主机名:localhost
+    端口号:3036
+    用户名:user01
+    密码:password01
+  导入例子用DDL以及数据
+    PagesWatchKeeper/PagesWatchKeeper-initdb/src/main/sqls/sampleConnDB.sql
 
 ◆工具准备
 
